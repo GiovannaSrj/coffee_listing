@@ -1,0 +1,27 @@
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+    width: 33%;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 920px) {
+    li{
+        width: 50% ;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    li{
+        width: 100%;
+    }
+}

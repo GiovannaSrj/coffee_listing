@@ -1,0 +1,66 @@
+{
+  "coffees": [
+    {
+      "id": 1,
+      "name": "Cappuccino",
+      "note": "4.7",
+      "popular": true,
+      "stocked": true,
+      "total_votes": 65,
+      "value": "5.20",
+      "urlImg": "https://metropolisjapan.com/wp-content/uploads/2022/08/coffee-stock.jpg"
+    },
+    
+    {
+      "id": 2,
+      "name": "House Cofeee",
+      "popular": true,
+      "note": "4.85",
+      "total_votes": 14,
+      "stocked": true,
+      "value": "3.50",
+      "urlImg": "https://assets.site-static.com/userFiles/2044/image/PRE.com-082223-best-portland-cafes.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Expresso",
+      "popular": false,
+      "note": "4.9",
+      "total_votes": 55,
+      "stocked": true,
+      "value": "2.50",
+      "urlImg": "https://cafebarista.ca/cdn/shop/articles/Sans_titre_2-929130_1200x.png?v=1693057482"
+    },
+    {
+      "id": 4,
+      "name": "Coffee Latte",
+      "popular": false,
+      "note": "5.0",
+      "total_votes": 23,
+      "stocked": true,
+      "value": "5.50",
+      "urlImg": "https://img.freepik.com/free-photo/cup-coffee-plate_1232-931.jpg?t=st=1709313104~exp=1709316704~hmac=f9d8a85d35cc0db936eeaa764a3f702b388637249b8db9eea5a837f36842d512&w=740"
+    },
+    {
+      "id": 5,
+      "name": "Chocolate Coffee",
+      "popular": true,
+      "note": "4.65",
+      "total_votes": 122,
+      "stocked": false,
+      "value": "4.00",
+      "urlImg": "https://img.freepik.com/free-photo/top-view-hot-chocolate-cacao-chips_23-2148238792.jpg?t=st=1709769784~exp=1709773384~hmac=82accfc94f4f782f7a4f67230d38918c2cf34d24452b281de637b05c48d169e9&w=996"
+    },
+    
+    {
+      "id": 6,
+      "name": "Valentine Special",
+      "popular": false,
+      "note": null,
+      "total_votes": null,
+      "stocked": true,
+      "value": "5.50",
+      "urlImg": "https://img.freepik.com/free-photo/closeup-various-hot-coffee_53876-31293.jpg?t=st=1709769870~exp=1709773470~hmac=35312ec35df10a6342936f035ff97a820dc5cae19bad8bc86cebb8000e1e50cf&w=996"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  background-color: var(--bg-color);
+  font-family: "DM Sans", sans-serif;
+}
+
+.bg_img{
+  width: 100%;
+  position: absolute;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.container{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 150px auto;
+  border-radius: 20px;
+  padding: 20px;
+  width: 50rem;
+  height: auto;
+  background-color: var(--bg-container);
+  
+}
+
+.container_texts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 26rem;
+  height: 10rem;
+  padding: 15px;
+  background-image: url('src/assets/vector.svg');
+  background-attachment: local;
+  background-position: initial;
+  background-size:45% ;
+  background-repeat: no-repeat;
+}
+
+.container_texts h1{
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.container_texts p{
+  color: var(--color-text);
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+
+nav{
+  display: flex;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+
+button{
+ 
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+
+  transition-duration: 0.6s;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 7px;
+  margin: 10px;
+  
+  border-radius: 10px;
+  &:hover{
+    background-color: #ffffff5c;
+    
+    
+  }
+  
+}
+
+button:focus{
+  
+    background-color: #ffffff5c;
+  }
+
+
+
+
+
+@media screen and (max-width: 920px) {
+  .container{
+    width: 30rem;
+    margin: 100px auto;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .container{
+    width: 18rem;
+    margin: 50px auto;
+  }
+
+  .container_texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16rem;
+    height: 15rem;
+    padding: 15px;
+    background-size:70% ;
+    background-position: initial;
+  }
+}

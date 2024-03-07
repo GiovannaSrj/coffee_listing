@@ -1,0 +1,86 @@
+.cards_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+picture {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 210px;
+  height: 130px;
+}
+picture img {
+  width: 210px;
+  height: 130px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+.pop {
+  position: absolute;
+  background-color: var(--color-pop);
+  padding: 3px 8px;
+  margin: 10px;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 0.625rem;
+}
+
+.coffee_name {
+  width: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.name_coffee {
+  color: var(--color-names);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.value {
+  background-color: var(--bg-value);
+  color: var(--bg-container);
+  padding: 2px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.review {
+  width: 210px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review_container {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+.stars {
+  width: 20px;
+}
+.note {
+  color: var(--color-names);
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin: 0 3px;
+}
+
+.votes {
+  color: var(--color-text);
+  font-size: 0.625rem;
+}
+
+.SoldOut {
+  margin-top: 6px;
+  color: var(--color-soldOut);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
